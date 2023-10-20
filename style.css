@@ -140,5 +140,11 @@ body{
         position:absolute;
         right: 15px;
     }
+    .seven img {
+        position:fixed;
+        top:100px;
+        width: 80%;
+        height: 80%;
+    }
 
 }
