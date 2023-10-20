@@ -108,3 +108,37 @@ body{
     cursor: pointer;
 }
 
+@media (max-width:600px){
+
+    .classbox{
+
+        border: 2px solid #aaa;
+        border-radius: 5px;
+        margin: 0 auto;
+        position:relative;
+        width: 400px;
+        height: 320px;
+    
+    }
+    
+    .chat{
+        font-size:smaller;
+        margin:4;
+        text-align:justify;
+    }
+    
+    .chat span {
+        visibility: hidden;
+    }
+    
+    .botonfalso{
+        background-color: rgb(21,161,257);
+        border-radius: 8px;
+        bottom:-50px;
+        color:#fff;
+        padding: 0rem 1rem;
+        position:absolute;
+        right: 15px;
+    }
+
+}
